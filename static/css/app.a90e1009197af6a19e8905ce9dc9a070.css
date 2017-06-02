@@ -1,0 +1,107 @@
+
+body {
+    width: 600px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+#app {
+  font-family: 'Raleway', 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.title-logo[data-v-537c2f86] {
+    width: 200px;
+    margin-bottom: 30px;
+}
+p[data-v-537c2f86] {
+  text-align: left;
+}
+h1[data-v-537c2f86] {
+  margin-bottom: 2em;
+}
+h1[data-v-537c2f86], h2[data-v-537c2f86] {
+  font-weight: normal;
+}
+a[data-v-537c2f86] {
+  color: #4287b9;
+}
+.category[data-v-537c2f86] {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+hr[data-v-537c2f86] {
+  border: 0;
+  height: 1px;
+  width:600px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.project-div[data-v-a1f893f2] {
+  display:block;
+  margin: 30px auto 60px;
+  width: 450px;
+  max-width: 90%;
+}
+img.project-logo[data-v-a1f893f2] {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 100px;
+}
+.links[data-v-a1f893f2] {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.links a[data-v-a1f893f2] {
+    display: inline-block;
+    height: 20px;
+    font-size:16px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+h3.title[data-v-a1f893f2] {
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+h4.subtitle[data-v-a1f893f2] {
+  margin-top: 0;
+  font-size: 18px;
+}
+.summary[data-v-a1f893f2] {
+  text-align: justify;
+}
+a.demo[data-v-a1f893f2] {
+    background: url('/static/imgs/icons/demo.svg') no-repeat left;
+}
+a.paper[data-v-a1f893f2] {
+    background: url('/static/imgs/icons/paper.svg') no-repeat left;
+}
+a.docs[data-v-a1f893f2] {
+    background: url('/static/imgs/icons/docs.svg') no-repeat left;
+}
+a.source[data-v-a1f893f2] {
+    background: url(/static/imgs/icons/source.svg) no-repeat left;
+}
+
+
+footer[data-v-fa324e66] {
+  width: 100%;
+  height: 40px;
+  margin-top: 4em;
+  padding-bottom: 1em;
+  color: #999999;
+  background-color: #fbfbfb;
+  text-align: center;
+}
+
