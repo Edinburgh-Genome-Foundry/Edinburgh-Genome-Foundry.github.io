@@ -93,6 +93,9 @@ a.docs[data-v-a1f893f2] {
 a.source[data-v-a1f893f2] {
     background: url(/static/imgs/icons/source.svg) no-repeat left;
 }
+a.website[data-v-a1f893f2] {
+    background: url(/static/imgs/icons/demo.svg) no-repeat left;
+}
 
 
 footer[data-v-fa324e66] {
