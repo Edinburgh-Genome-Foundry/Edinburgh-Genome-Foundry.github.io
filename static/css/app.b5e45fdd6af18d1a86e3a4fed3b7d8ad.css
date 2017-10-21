@@ -17,16 +17,41 @@ body {
     width: 200px;
     margin-bottom: 30px;
 }
+.header-links[data-v-537c2f86] {
+  margin-bottom: 3em;
+}
+.header-links a[data-v-537c2f86] {
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding-top: -2em;
+  margin-left: 4%;
+  margin-right: 4%
+}
+.header-links a[data-v-537c2f86]:hover { color: black
+}
 p[data-v-537c2f86] {
   text-align: left;
 }
 h1[data-v-537c2f86] {
-  margin-bottom: 2em;
 }
 h1[data-v-537c2f86], h2[data-v-537c2f86] {
   font-weight: normal;
 }
 a[data-v-537c2f86] {
+  color: #4287b9;
+}
+.other-repos p[data-v-537c2f86] {
+    text-align: center;
+}
+.other-repos p a[data-v-537c2f86] {
+  color: black;
+  text-decoration: none;
+  padding-left: 1.2em;
+    background: url('/static/imgs/icons/source.svg') no-repeat left;
+}
+.other-repos p a[data-v-537c2f86]:hover {
   color: #4287b9;
 }
 .category[data-v-537c2f86] {
@@ -70,6 +95,12 @@ img.project-logo[data-v-a1f893f2] {
     padding-left: 20px;
     margin-left: 20px;
 }
+.links a[data-v-a1f893f2]:first-child {
+  margin-left: 0;
+}
+.links a[data-v-a1f893f2]:hover {
+  color: #555;
+}
 h3.title[data-v-a1f893f2] {
   font-size: 28px;
   margin-bottom: 0px;
@@ -104,7 +135,7 @@ footer[data-v-fa324e66] {
   margin-top: 4em;
   padding-bottom: 1em;
   color: #999999;
-  background-color: #fbfbfb;
+  /*background-color: #fbfbfb;*/
   text-align: center;
 }
 
