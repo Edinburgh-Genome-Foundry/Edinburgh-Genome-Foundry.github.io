@@ -14,10 +14,11 @@ body {
 }
 
 .title-logo[data-v-537c2f86] {
-    width: 200px;
-    margin-bottom: 30px;
+  width: 200px;
+  margin-bottom: 30px;
 }
 .header-links[data-v-537c2f86] {
+  margin-top: 2em;
   margin-bottom: 3em;
 }
 .header-links a[data-v-537c2f86] {
@@ -27,46 +28,45 @@ body {
   font-size: 1.1em;
   padding-top: -2em;
   margin-left: 4%;
-  margin-right: 4%
+  margin-right: 4%;
 }
-.header-links a[data-v-537c2f86]:hover { color: black
+.header-links a[data-v-537c2f86]:hover {
+  color: black;
 }
 p[data-v-537c2f86] {
   text-align: left;
-}
-h1[data-v-537c2f86] {
 }
 h1[data-v-537c2f86], h2[data-v-537c2f86] {
   font-weight: normal;
 }
 a[data-v-537c2f86] {
-  color: #4287b9;
+  color: #4542be;
 }
 .other-repos p[data-v-537c2f86] {
-    text-align: center;
+  text-align: center;
 }
 .other-repos p a[data-v-537c2f86] {
   color: black;
   text-decoration: none;
   padding-left: 1.2em;
-    background: url('/static/imgs/icons/source.svg') no-repeat left;
+  background: url("/static/imgs/icons/source.svg") no-repeat left;
 }
 .other-repos p a[data-v-537c2f86]:hover {
   color: #4287b9;
 }
 .category[data-v-537c2f86] {
-    font-size: 25px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 hr[data-v-537c2f86] {
   border: 0;
   height: 1px;
-  width:600px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 600px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
 
 .project-div[data-v-a1f893f2] {
@@ -139,3 +139,30 @@ footer[data-v-fa324e66] {
   text-align: center;
 }
 
+
+.weblinks-bar[data-v-90842f12] {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.weblinks-bar a[data-v-90842f12] {
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: #888;
+}
+.weblinks-bar a[data-v-90842f12]:not(:first-child) {
+      margin-left: 2em;
+}
+.weblinks-bar a[data-v-90842f12]:hover {
+      color: black;
+}
+.weblinks-bar a:hover img[data-v-90842f12] {
+        opacity: 1;
+}
+.weblinks-bar img[data-v-90842f12] {
+    height: 1.1em;
+    margin-bottom: -0.2em;
+    margin-right: 0.2em;
+    opacity: 0.6;
+}
