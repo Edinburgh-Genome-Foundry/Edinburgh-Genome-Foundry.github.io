@@ -137,8 +137,11 @@ footer[data-v-fa324e66] {
   margin-bottom: 1em;
   padding-bottom: 1em;
   color: #999999;
-  filter: grayscale(100%);
   text-align: center;
+}
+img[data-v-fa324e66] {
+  filter: grayscale(100%);
+  opacity: 0.6;
 }
 
 
