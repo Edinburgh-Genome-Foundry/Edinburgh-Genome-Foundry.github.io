@@ -21,17 +21,20 @@ body {
   margin-top: 2em;
   margin-bottom: 3em;
 }
+.header-links h3[data-v-537c2f86] {
+    margin-bottom: 2em;
+}
 .header-links a[data-v-537c2f86] {
-  text-align: center;
-  color: grey;
-  text-decoration: none;
-  font-size: 1.1em;
-  padding-top: -2em;
-  margin-left: 4%;
-  margin-right: 4%;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-top: -2em;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .header-links a[data-v-537c2f86]:hover {
-  color: black;
+      color: black;
 }
 p[data-v-537c2f86] {
   text-align: left;
@@ -41,12 +44,15 @@ h1[data-v-537c2f86], h2[data-v-537c2f86] {
 }
 a[data-v-537c2f86] {
   color: #4542be;
+  text-decoration: none;
+  font-weight: 700;
 }
 .other-repos p[data-v-537c2f86] {
   text-align: center;
 }
 .other-repos p a[data-v-537c2f86] {
   color: black;
+  font-weight: normal;
   text-decoration: none;
   padding-left: 1.2em;
   background: url("/static/imgs/icons/source.svg") no-repeat left;
