@@ -1,8 +1,13 @@
 
+html {
+  width: auto;
+}
 body {
+    display: block;
     width: 600px;
     max-width: 95%;
     margin: 0 auto;
+    font-size: 5mm;
 }
 #app {
   font-family: 'Raleway', 'Avenir', Helvetica, Arial, sans-serif;
@@ -18,26 +23,21 @@ body {
   margin-bottom: 30px;
 }
 .header-links[data-v-537c2f86] {
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 3em;
-}
-.header-links h3[data-v-537c2f86] {
-    margin-bottom: 2em;
 }
 .header-links a[data-v-537c2f86] {
     text-align: center;
     color: grey;
     text-decoration: none;
     font-size: 1.1em;
-    padding-top: -2em;
-    margin-left: 4%;
-    margin-right: 4%;
 }
 .header-links a[data-v-537c2f86]:hover {
       color: black;
 }
 p[data-v-537c2f86] {
   text-align: left;
+  font-size: 5mm;
 }
 h1[data-v-537c2f86], h2[data-v-537c2f86] {
   font-weight: normal;
@@ -61,7 +61,7 @@ a[data-v-537c2f86] {
   color: #4287b9;
 }
 .category[data-v-537c2f86] {
-  font-size: 25px;
+  font-size: 1.5em;
   margin-top: 100px;
   margin-bottom: 50px;
   font-weight: bold;
@@ -71,13 +71,13 @@ a[data-v-537c2f86] {
 hr[data-v-537c2f86] {
   border: 0;
   height: 1px;
-  width: 600px;
+  width: 100%;
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
 .alert[data-v-537c2f86] {
   padding: 1.5em;
   border-radius: 0.2em;
-  margin: 3em;
+  margin: 3em 1em 3em 1em;
   box-shadow: 0 1px 6px rgba(45, 47, 53, 0.16), 0 3px 6px rgba(66, 66, 104, 0.23);
 }
 .alert h3[data-v-537c2f86] {
@@ -88,9 +88,9 @@ hr[data-v-537c2f86] {
 }
 
 .project-div[data-v-a1f893f2] {
-  display:block;
+  display: block;
   margin: 30px auto 60px;
-  width: 450px;
+  width: 25em;
   max-width: 90%;
 }
 img.project-logo[data-v-a1f893f2] {
@@ -100,13 +100,14 @@ img.project-logo[data-v-a1f893f2] {
     max-height: 100px;
 }
 .links[data-v-a1f893f2] {
-  max-width: 90%;
+  max-width: 95%;
   margin: 0 auto;
+  line-height: 2em;
 }
 .links a[data-v-a1f893f2] {
     display: inline-block;
-    height: 20px;
-    font-size:16px;
+    /* height: 20px; */
+    font-size:0.9em;
     text-decoration: none;
     color: black;
     text-align: left;
@@ -120,12 +121,12 @@ img.project-logo[data-v-a1f893f2] {
   color: #555;
 }
 h3.title[data-v-a1f893f2] {
-  font-size: 28px;
+  font-size: 1.8em;
   margin-bottom: 0px;
 }
 h4.subtitle[data-v-a1f893f2] {
   margin-top: 0;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 .summary[data-v-a1f893f2] {
   text-align: justify;
@@ -146,11 +147,11 @@ a.website[data-v-a1f893f2] {
     background: url(/static/imgs/icons/demo.svg) no-repeat left;
 }
 .github-stars[data-v-a1f893f2] {
-  vertical-align: top;
+  vertical-align: middle;
   display: inline-block;
   margin-left: 20px;
   height: 10px;
-  /* margin-bottom: -15px; */
+  margin-bottom: 15px;
   /* position: absolute; */
   /* transform: translate(-50%); */
   /* left: 50%; */
